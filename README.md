@@ -21,6 +21,7 @@ IMAGE=$AWS_ACCOUNT_ID.dkr.ecr.us-west-2.amazonaws.com/$IMAGE_NAME:latest serverl
 4. Setup Github Action Secrets for automatic deployment
 
 AWS_SECRET_ACCESS_KEY, AWS_ACCESS_KEY_ID, IMAGE
+
 5. Push code or manually trigger Github Action. The Public URL can be retrieved from https://github.com/neibla/gradio-lambda/runs/7449122633?check_suite_focus=true#step:7:17
 
 For a Streamlit/Cloud Run template see https://github.com/neibla/streamlit-google-cloud-run
