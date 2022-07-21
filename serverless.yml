@@ -1,0 +1,12 @@
+service: gradio-demo
+package:
+  individually: true
+
+provider:
+  name: aws
+  region: us-west-2
+  stage: ${opt:stage, "dev"}
+functions:
+  gradio:
+    image: ${env:IMAGE}
+    url: true

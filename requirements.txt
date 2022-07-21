@@ -1,0 +1,5 @@
+mangum
+# had an issue with docker build locally on m1 without
+# pinning this
+orjson==3.3.0
+gradio==3.0.26
