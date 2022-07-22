@@ -1,6 +1,7 @@
 # gradio-lambda
 Demo gradio app on AWS Lambda
 
+Alternately just use https://huggingface.co/docs/hub/spaces-sdks-gradio or https://cloud.google.com/run
 
 ## Steps:
 1. Create ECR 
